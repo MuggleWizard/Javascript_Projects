@@ -1,0 +1,31 @@
+<!--HTML code below.-->
+<script>
+  let i = 1;
+  while (i <= 100) {
+    if (i % 3 == 0 && i % 5 == 0) {
+      document.write(i + ". FIZZBUZZ! <br />");
+    } else if (i % 3 == 0) {
+      document.write(i + ". FIZZ! <br />");
+    } else if (i % 5 == 0) {
+      document.write(i + ". BUZZ! <br />");
+    } else {
+      document.write(i + ". <br />");
+    }
+    i++;
+  }
+</script>
+
+<!--To open live server and display code on a webpage you can press command L and O or right click anywhere on page and "Open with Live Server"-->
+
+<!-- <script>
+  function fizzBuzz(num) {
+    for (let i = 1; i <= num; i++) {
+      if (i % 2 == 0 && i % 3 == 0) console.log("Fizz Buzz");
+      else if (i % 3 == 0) console.log("Buzz");
+      else if (i % 2 == 0) console.log("Fizz");
+      else console.log(i);
+    }
+  }
+
+  fizzBuzz(100);
+</script> -->
